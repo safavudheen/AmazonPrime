@@ -1,0 +1,52 @@
+.banner{
+    margin-bottom: 3rem;
+   overflow: hidden;
+    display: flex;
+    
+    height: 30rem;
+    background-image: linear-gradient( 
+180deg
+ ,#1b2530 0,rgba(27,37,48,.85));
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-between;
+   
+    width: 100%;
+}
+.banner-img{
+    height: 34rem;
+    width: 61rem;
+  
+    align-content: center;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+.title{
+    margin-right: 42rem;
+    font-weight: normal;
+    background: none;
+    font-size: xx-large;
+    position: absolute;
+    float: right;
+    margin-top: 22rem;
+}
+.para{
+    
+    -webkit-text-stroke: thin;
+    margin-right: 2rem;
+    font-weight: normal;
+    background: none;
+    font-size: xx-large;
+    position: absolute;
+    float: right;
+    margin-top: 25rem;
+    font-size: larger;
+    margin-left: 1rem;
+    max-width: 53rem;
+}
+.fade{
+    height: 7rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+}

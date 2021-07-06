@@ -1,0 +1,57 @@
+.row{    margin-top: -2rem;
+    background-color: rgb(18, 18, 19);
+    height: 26rem;
+}
+
+.prime{
+    
+    font-family: -webkit-body;
+    float: left;
+    color: turquoise;
+    margin-right: 13px;
+    margin-left: 1rem;
+}
+.h2{
+    margin-top: 0;
+    float: left;
+    background-color: #31313300;
+}
+
+.posters{
+    padding-right: 1rem;
+    height: 18rem;
+    width: 100%;
+   
+}
+.postrow::-webkit-scrollbar{
+    display: none;
+}
+.postrow{
+    float: left;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;  
+    height: 23rem;  
+}
+
+
+.post {
+    margin-left: 1rem;
+    position: inherit;
+    height: 21rem;
+    width: 20rem;
+    background-image: none;
+    margin: .5rem; }
+.postTwo{
+        margin-left: 1rem;
+        position: inherit;
+        height: 19rem;
+        width: 18rem;
+        background-image: none;
+        margin: .5rem; 
+
+}
+.posters2{
+    margin-top: 8rem;
+}
