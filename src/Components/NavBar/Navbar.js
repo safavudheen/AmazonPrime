@@ -1,5 +1,5 @@
 import './Navbar.css'
-
+import {FaSearch} from 'react-icons/fa'
 export default function navbar() {
 
     return(
@@ -9,7 +9,9 @@ export default function navbar() {
                 </img>
                 <input type='text' className='searchbar'/>
                 <div className='btnclass'>
-                <input type="" className='searchbtn'/>
+                <button type="" className='searchbtn' >
+                < FaSearch style={{backgroundColor:'transparent'}}/>
+               </button>
                 </div>
                 <h1 className='hdr1'>Prime Now </h1><h1 className='hdr2'>Get ultrafast delivery</h1>
             </div>
