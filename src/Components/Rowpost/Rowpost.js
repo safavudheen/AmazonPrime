@@ -26,7 +26,7 @@ function Rowpost(props) {
         width: '100%',
         
         playerVars: {   
-          autoplay: 1,
+          autoplay: 0,
         },
       }; 
   
@@ -45,14 +45,15 @@ function Rowpost(props) {
     
  console.log(urlId)
     return (
-        <div className='row'>
-             {urlId && <YouTube videoId={urlId.key} opts={opts} />}
+        <div className='row1'>
+            
             <div className='posters'>
             <h2 className='prime'>prime</h2><h2 className='h2'>{props.title}</h2>
+            {urlId && <YouTube videoId={urlId.key} opts={opts} />}
             <div className='postrow'>
-           
+                
               {movie.map((obj)=>
-              <img className={props.isMedium ? 'postTwo':'post'} onClick={()=>handleMovie(obj.id)} 
+              <img onClick={(e)=>handleMovie(obj.id)} className={props.isMedium ? 'postTwo':'post'}  
               src={`${imageUrl+obj.poster_path}`} alt=""  />
                     
                 )}

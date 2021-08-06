@@ -1,8 +1,7 @@
 .banner{
-    margin-bottom: 3rem;
+   
    overflow: hidden;
-    display: flex;
-    
+  display: flex;
     height: 30rem;
     background-image: linear-gradient( 
 180deg
@@ -15,36 +14,49 @@
    
     width: 100%;
 }
-.banner-img{
-    height: 34rem;
-    width: 61rem;
-  
+.banner-video{
+    padding-top: 8vh;
+    overflow: hidden;
+    background-size: cover;
+    position: unset;
+    width: 61vw;
+    height: 100%;
     align-content: center;
-    margin-top: 6rem;
-    margin-bottom: 1rem;
+    background-size: 100% 100%;
 }
-.title{
-    margin-right: 42rem;
+
+.banner-img {
+    overflow: hidden;
+    margin-top: 2vh;
+    background-size: cover;
+    position: unset;
+  
+    width: 75%;
+    align-content: center;
+   
+    background-size: 100% 100%;
+}
+.title {
     font-weight: normal;
     background: none;
     font-size: xx-large;
     position: absolute;
-    float: right;
-    margin-top: 22rem;
+    margin-left: 1em;
+    margin-top: 16rem;
 }
-.para{
     
+
+.para {
     -webkit-text-stroke: thin;
-    margin-right: 2rem;
     font-weight: normal;
     background: none;
-    font-size: xx-large;
     position: absolute;
-    float: right;
-    margin-top: 25rem;
-    font-size: larger;
-    margin-left: 1rem;
-    max-width: 53rem;
+    font-size: 2vh;
+    margin-left: 2rem;
+    margin-top: 22rem;
+    max-width: 50vw;
+    overflow: hidden;
+    height: 11vh;
 }
 .fade{
     height: 7rem;

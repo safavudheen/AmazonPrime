@@ -1,10 +1,11 @@
-.row{    margin-top: -2rem;
+.row1{    margin-top: 0rem;
     background-color: rgb(18, 18, 19);
     height: 26rem;
 }
 
 .prime{
     
+    font-weight: bold;
     font-family: -webkit-body;
     float: left;
     color: turquoise;
@@ -19,7 +20,7 @@
 
 .posters{
     padding-right: 1rem;
-    height: 18rem;
+    height: 25rem;
     width: 100%;
    
 }
