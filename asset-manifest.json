@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/AmazonPrime/static/css/main.35c4e89e.chunk.css",
-    "main.js": "/AmazonPrime/static/js/main.034b5716.chunk.js",
-    "main.js.map": "/AmazonPrime/static/js/main.034b5716.chunk.js.map",
+    "main.css": "/AmazonPrime/static/css/main.dcd772f5.chunk.css",
+    "main.js": "/AmazonPrime/static/js/main.dbf61a83.chunk.js",
+    "main.js.map": "/AmazonPrime/static/js/main.dbf61a83.chunk.js.map",
     "runtime-main.js": "/AmazonPrime/static/js/runtime-main.db13c576.js",
     "runtime-main.js.map": "/AmazonPrime/static/js/runtime-main.db13c576.js.map",
-    "static/js/2.a8a7ee74.chunk.js": "/AmazonPrime/static/js/2.a8a7ee74.chunk.js",
-    "static/js/2.a8a7ee74.chunk.js.map": "/AmazonPrime/static/js/2.a8a7ee74.chunk.js.map",
+    "static/css/2.d45d6843.chunk.css": "/AmazonPrime/static/css/2.d45d6843.chunk.css",
+    "static/js/2.f027f30f.chunk.js": "/AmazonPrime/static/js/2.f027f30f.chunk.js",
+    "static/js/2.f027f30f.chunk.js.map": "/AmazonPrime/static/js/2.f027f30f.chunk.js.map",
     "index.html": "/AmazonPrime/index.html",
-    "static/css/main.35c4e89e.chunk.css.map": "/AmazonPrime/static/css/main.35c4e89e.chunk.css.map",
-    "static/js/2.a8a7ee74.chunk.js.LICENSE.txt": "/AmazonPrime/static/js/2.a8a7ee74.chunk.js.LICENSE.txt"
+    "static/css/2.d45d6843.chunk.css.map": "/AmazonPrime/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.dcd772f5.chunk.css.map": "/AmazonPrime/static/css/main.dcd772f5.chunk.css.map",
+    "static/js/2.f027f30f.chunk.js.LICENSE.txt": "/AmazonPrime/static/js/2.f027f30f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db13c576.js",
-    "static/js/2.a8a7ee74.chunk.js",
-    "static/css/main.35c4e89e.chunk.css",
-    "static/js/main.034b5716.chunk.js"
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.f027f30f.chunk.js",
+    "static/css/main.dcd772f5.chunk.css",
+    "static/js/main.dbf61a83.chunk.js"
   ]
 }
